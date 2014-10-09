@@ -1,0 +1,1210 @@
+@charset "UTF-8";
+/* line 55, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 63, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 74, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 84, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+[hidden], template {
+  display: none;
+}
+
+/* line 97, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+html {
+  font-size: 100%;
+  background: white;
+  color: black;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 113, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 119, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 132, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+a {
+  background: transparent;
+  cursor: pointer;
+  color: #3498db;
+}
+/* line 140, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+/* line 147, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 160, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 165, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 170, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 175, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 180, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 185, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+/* line 193, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 200, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 205, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 212, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 218, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 226, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/* line 237, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* line 247, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 255, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 264, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/* line 271, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 278, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 286, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 293, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 297, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 310, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 316, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 325, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/* line 334, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+nav ul,
+nav ol {
+  list-style-image: none;
+}
+
+/* line 349, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 358, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 368, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 378, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/* line 385, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 396, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+/* line 413, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 426, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 436, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 451, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+/* line 462, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/* line 472, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+/* line 484, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 495, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 503, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 512, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 523, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+0026;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C;
+}
+
+/* line 369, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+body {
+  word-wrap: break-word;
+}
+
+/* line 373, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+pre code {
+  word-wrap: normal;
+}
+
+/**
+ * Dropcap Sass @include
+ * Use the following Sass @include with any selector you feel necessary.
+ *
+	@include dropcap($dropcap-float-position, $dropcap-font-size, $dropcap-font-family, $dropcap-txt-indent, $dropcap-margin, $dropcap-padding, $dropcap-color, $dropcap-line-height, $dropcap-bg);
+ *
+ * Extend this object into your custom stylesheet. Let the variables do the work.
+ *
+ */
+/* line 498, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+html {
+  font: normal 112.5%/1.65 serif;
+}
+
+/* line 506, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+body {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  color: #444444;
+}
+
+/* line 517, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+small {
+  font-size: 65%;
+}
+
+/* line 540, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-top: 0;
+}
+
+/* line 555, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.tera {
+  font-size: 117px;
+  font-size: 6.5rem;
+  margin-bottom: 0.25385rem;
+}
+
+/* line 555, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.giga {
+  font-size: 90px;
+  font-size: 5rem;
+  margin-bottom: 0.33rem;
+}
+
+/* line 555, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.mega {
+  font-size: 72px;
+  font-size: 4rem;
+  margin-bottom: 0.4125rem;
+}
+
+/* line 555, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.alpha, h1 {
+  font-size: 60px;
+  font-size: 3.33333rem;
+  margin-bottom: 0.495rem;
+}
+
+/* line 555, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.beta, h2 {
+  font-size: 48px;
+  font-size: 2.66667rem;
+  margin-bottom: 0.61875rem;
+}
+
+/* line 555, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.gamma, h3 {
+  font-size: 36px;
+  font-size: 2rem;
+  margin-bottom: 0.825rem;
+}
+
+/* line 555, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.delta, h4 {
+  font-size: 24px;
+  font-size: 1.33333rem;
+  margin-bottom: 1.2375rem;
+}
+
+/* line 555, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.epsilon, h5 {
+  font-size: 21px;
+  font-size: 1.16667rem;
+  margin-bottom: 1.41429rem;
+}
+
+/* line 555, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.zeta, h6 {
+  font-size: 18px;
+  font-size: 1rem;
+  margin-bottom: 1.65rem;
+}
+
+/* line 595, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+p {
+  margin: auto auto 1.5em;
+}
+/* line 600, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+p + p {
+  text-indent: 1.5em;
+  margin-top: -1.5em;
+}
+
+/* line 625, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+abbr,
+acronym,
+blockquote,
+code,
+dir,
+kbd,
+listing,
+plaintext,
+q,
+samp,
+tt,
+var,
+xmp {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -o-hyphens: none;
+  hyphens: none;
+}
+
+/* line 633, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+}
+
+/* line 638, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+pre {
+  white-space: pre;
+}
+
+/* line 642, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+code {
+  white-space: pre;
+  font-family: monospace;
+}
+
+/**
+ * Abbreviations Markup
+ *
+	<abbr title="hyper text markup language">HMTL</abbr>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 658, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+abbr {
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray;
+}
+/* line 660, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+abbr[title]:hover {
+  cursor: help;
+}
+
+/* line 674, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2c3e50;
+}
+
+/* line 684, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+p + .drop-cap {
+  text-indent: 0;
+  margin-top: 0;
+}
+
+/* line 400, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.drop-cap:first-letter {
+  float: left;
+  margin: inherit;
+  padding: inherit;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
+/**
+ * Lining Definition Style Markup
+ *
+	<dl class="lining">
+		<dt><b></b></dt>
+		<dd></dd>
+	</dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 439, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.lining dt,
+.lining dd {
+  display: inline;
+  margin: 0;
+}
+/* line 446, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.lining dt + dt:before,
+.lining dd + dt:before {
+  content: "\A";
+  white-space: pre;
+}
+/* line 454, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.lining dd + dd:before {
+  content: ", ";
+}
+/* line 458, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.lining dd:before {
+  content: ": ";
+  margin-left: -0.2rem;
+}
+
+/**
+ * Dictionary Definition Style Markup
+ *
+	<dl class="dictionary-style">
+		<dt><b></b></dt>
+			<dd></dd>
+	</dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 466, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.dictionary-style dt {
+  display: inline;
+  counter-reset: definitions;
+}
+/* line 470, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.dictionary-style dt + dt:before {
+  content: ", ";
+  margin-left: -0.2rem;
+}
+/* line 476, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.dictionary-style dd {
+  display: block;
+  counter-increment: definitions;
+}
+/* line 479, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.dictionary-style dd:before {
+  content: counter(definitions, decimal) ". ";
+}
+
+/**
+ * Blockquote Markup
+ *
+		<figure>
+			<blockquote cite="">
+				<p></p>
+			</blockquote>
+			<figcaption>
+				<cite>
+					<small><a href=""></a></small>
+				</cite>
+			</figcaption>
+		</figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Pull Quotes Markup
+ *
+	<aside class="pull-quote">
+		<blockquote>
+			<p></p>
+		</blockquote>
+	</aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+/* line 768, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.pull-quote {
+  position: relative;
+  padding: 1em;
+}
+/* line 341, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.pull-quote:before, .pull-quote:after {
+  height: 1em;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 4em;
+  color: #dc976e;
+}
+/* line 348, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.pull-quote:before {
+  content: '“';
+  top: 0;
+  left: 0;
+}
+/* line 353, /Users/jwang/academy/app/assets/stylesheets/common/../vendor/_typeplate.scss */
+.pull-quote:after {
+  content: '”';
+  bottom: 0;
+  right: 0;
+}
+
+/**
+ * Figures Markup
+ *
+	<figure>
+		<figcaption>
+			<strong>Fig. 4.2 | </strong>Type Anatomy, an excerpt from Mark Boulton's book<cite title="http://designingfortheweb.co.uk/book/part3/part3_chapter11.php">"Designing for the Web"</cite>
+		</figcaption>
+	</figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+	<article>
+		<p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+		<footer>
+			<ol class="foot-notes">
+				<li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+			</ol>
+		</footer>
+	</article>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/*
+ *
+.||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||.
+
+    .                                      '||            .
+  .||.  .... ... ... ...    ....  ... ...   ||   ....   .||.    ....
+   ||    '|.  |   ||'  || .|...||  ||'  ||  ||  '' .||   ||   .|...||
+   ||     '|.|    ||    | ||       ||    |  ||  .|' ||   ||   ||
+   '|.'    '|     ||...'   '|...'  ||...'  .||. '|..'|'  '|.'  '|...'
+        .. |      ||               ||
+         ''      ''''             ''''                      VARIABLES
+
+ .||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||.
+ *
+ */
+@font-face {
+  font-family: helvetica;
+  src: local("Helvetica Neue Light"), local("HelveticaNeue-Light");
+}
+
+@font-face {
+  src: local("Roboto-Light"), url("/fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Light.woff") format("woff"), url("/fonts/Roboto-Light.ttf") format("truetype");
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  src: local("Roboto-Regular"), url("/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Regular.woff") format("woff"), url("/fonts/Roboto-Regular.ttf") format("truetype");
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  src: local("Roboto-LightItalic"), url("/fonts/Roboto-LightItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-LightItalic.woff") format("woff"), url("/fonts/Roboto-LightItalic.ttf") format("truetype");
+  font-family: 'roboto';
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* line 1, /Users/jwang/academy/app/assets/stylesheets/common/_forms.scss */
+.input-error {
+  display: none;
+  font-size: 14px;
+  color: red;
+}
+
+/* line 8, /Users/jwang/academy/app/assets/stylesheets/common/_forms.scss */
+.inputError .input-error {
+  display: block;
+}
+/* line 11, /Users/jwang/academy/app/assets/stylesheets/common/_forms.scss */
+.inputError input[type="text"] {
+  background: #ffdddd;
+}
+
+/* line 24, /Users/jwang/academy/app/assets/stylesheets/common/../layout/_containers.scss */
+html {
+  font-family: "roboto", sans-serif;
+  color: #34495e;
+  background: #ecf0f1;
+}
+
+/* line 30, /Users/jwang/academy/app/assets/stylesheets/common/../layout/_containers.scss */
+#app-container {
+  width: 98%;
+  padding: 0 1%;
+}
+
+/* line 1, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.filter-students {
+  width: 97%;
+  border: 0;
+  border-bottom: 1px dotted #3498db;
+  padding: 10px;
+  background: transparent;
+}
+
+/* line 9, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+p.no-students,
+p.max-students {
+  font-size: 14px;
+  text-align: center;
+  margin: 15px 0 0;
+  font-style: italic;
+}
+
+/* line 15, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+p.max-students {
+  margin-bottom: 20px;
+}
+
+/* line 18, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.students-list {
+  margin-top: 0;
+  padding-left: 0;
+}
+/* line 24, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.students-list > li:hover span.delete,
+.students-list > li.active span.delete {
+  display: inline-block;
+}
+/* line 27, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.students-list > li:hover span.student-number,
+.students-list > li.active span.student-number {
+  display: none;
+}
+/* line 30, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.students-list > li:hover span.name,
+.students-list > li.active span.name {
+  border-bottom: 1px dotted white;
+  cursor: pointer;
+}
+/* line 34, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.students-list > li:hover span.links,
+.students-list > li.active span.links {
+  display: block;
+}
+/* line 39, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.students-list > li {
+  padding: 10px;
+  border-bottom: 1px dotted #3498db;
+  list-style-type: none;
+  position: relative;
+}
+/* line 45, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.students-list > li span.student-number, .students-list > li span.delete {
+  margin-right: 10px;
+  width: 25px;
+  font-weight: bold;
+  display: inline-block;
+}
+/* line 51, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.students-list > li span.delete {
+  color: #c0392b;
+  display: none;
+}
+/* line 56, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.students-list > li span.name {
+  text-transform: capitalize;
+}
+/* line 60, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.students-list > li span.links {
+  display: none;
+  font-size: bold;
+  float: right;
+  padding-right: 10px;
+}
+/* line 70, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.students-list > li:hover,
+.students-list > li.selected {
+  background: #3498db;
+  border-bottom: 1px dotted #fff;
+  color: #fff;
+}
+
+/* line 78, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.btn-add-student {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #2980b9;
+  background: #3498db;
+  border-width: 0 2px 2px 0;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 1.5em;
+  width: 100%;
+  margin: 1em 0;
+}
+
+/* line 83, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.btn-add-student:hover {
+  background: #2980b9;
+  border-color: #3498db;
+}
+
+/* line 86, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.expanded {
+  width: 65%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 90, /Users/jwang/academy/app/assets/stylesheets/pages/students/_list.scss */
+.minimized {
+  width: 35%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 2, /Users/jwang/academy/app/assets/stylesheets/pages/students/_summary.scss */
+.summary {
+  text-align: center;
+  padding-top: 10px;
+}
+/* line 5, /Users/jwang/academy/app/assets/stylesheets/pages/students/_summary.scss */
+.summary .graph {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  margin: 0 auto 20px;
+  background: #c0392b;
+  width: 200px;
+  height: 200px;
+}
+/* line 15, /Users/jwang/academy/app/assets/stylesheets/pages/students/_summary.scss */
+.summary .graph-caption .numbers {
+  font-weight: bold;
+}
+/* line 17, /Users/jwang/academy/app/assets/stylesheets/pages/students/_summary.scss */
+.summary .graph-caption .numbers span {
+  font-size: 2em;
+}
+
+/* line 24, /Users/jwang/academy/app/assets/stylesheets/pages/students/_summary.scss */
+.middleHidden {
+  width: 35%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 27, /Users/jwang/academy/app/assets/stylesheets/pages/students/_summary.scss */
+.middleShowing {
+  display: none;
+}
+
+/* line 2, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form,
+#student-edit-form {
+  width: 65%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 50px;
+}
+/* line 7, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form h4,
+#student-edit-form h4 {
+  text-align: center;
+  text-transform: capitalize;
+}
+/* line 11, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form h4 span.name,
+#student-edit-form h4 span.name {
+  color: #c30;
+}
+/* line 15, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form label,
+#student-edit-form label {
+  display: block;
+  margin-top: 1em;
+  font-weight: bold;
+}
+/* line 20, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form label.for-checkbox,
+#student-edit-form label.for-checkbox {
+  display: inline-block;
+  margin-left: 5px;
+}
+/* line 24, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form input#fullname,
+#student-edit-form input#fullname {
+  text-transform: capitalize;
+}
+/* line 28, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form input[type="password"],
+#student-add-form input[type="text"],
+#student-edit-form input[type="password"],
+#student-edit-form input[type="text"] {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 10px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+}
+/* line 36, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form hr,
+#student-edit-form hr {
+  border: 1px dotted #3498db;
+  border-top: 0;
+  width: 50%;
+  margin-top: 2em;
+}
+/* line 42, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form div.btn-container,
+#student-edit-form div.btn-container {
+  text-align: center;
+}
+/* line 45, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form div.btn-container a.btn-save,
+#student-edit-form div.btn-container a.btn-save {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #2980b9;
+  background: #3498db;
+  border-width: 0 2px 2px 0;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 1em 20px 1em 0;
+}
+/* line 49, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form div.btn-container a.btn-save:hover,
+#student-edit-form div.btn-container a.btn-save:hover {
+  background: #2980b9;
+  border-color: #3498db;
+}
+/* line 53, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form div.btn-container a.cancel,
+#student-edit-form div.btn-container a.cancel {
+  color: #e74c3c;
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 1em 0 1em 20px;
+}
+/* line 57, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form div.btn-container a.cancel:hover,
+#student-edit-form div.btn-container a.cancel:hover {
+  color: #c30;
+}
+/* line 62, /Users/jwang/academy/app/assets/stylesheets/pages/students/_form.scss */
+#student-add-form div.submit-spinner,
+#student-edit-form div.submit-spinner {
+  background: url(/images/spinner.gif) no-repeat 50% 50%;
+  height: 100px;
+  width: 100%;
+}
+
+/* line 1, /Users/jwang/academy/app/assets/stylesheets/pages/students/_details.scss */
+#student-details {
+  width: 65%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+/* line 5, /Users/jwang/academy/app/assets/stylesheets/pages/students/_details.scss */
+#student-details .detail-header {
+  margin-bottom: 20px;
+}
+/* line 6, /Users/jwang/academy/app/assets/stylesheets/pages/students/_details.scss */
+#student-details .detail-header .student-badge {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+/* line 11, /Users/jwang/academy/app/assets/stylesheets/pages/students/_details.scss */
+#student-details .detail-header h2 {
+  line-height: 120px;
+  text-transform: capitalize;
+}
+/* line 18, /Users/jwang/academy/app/assets/stylesheets/pages/students/_details.scss */
+#student-details div.actions {
+  height: 50px;
+}
+/* line 21, /Users/jwang/academy/app/assets/stylesheets/pages/students/_details.scss */
+#student-details div.actions a {
+  display: inline-block;
+  float: left;
+  width: 25%;
+}
+/* line 26, /Users/jwang/academy/app/assets/stylesheets/pages/students/_details.scss */
+#student-details div.actions a.delete {
+  color: #c30;
+  font-weight: bold;
+}
+
+/* line 2, /Users/jwang/academy/app/assets/stylesheets/pages/students/_badge.scss */
+.student-badge .badge-top {
+  width: 0;
+  border-bottom: 30px solid #c30;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+}
+/* line 8, /Users/jwang/academy/app/assets/stylesheets/pages/students/_badge.scss */
+.student-badge .badge-bottom {
+  width: 0;
+  border-top: 30px solid #c30;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+}
+/* line 14, /Users/jwang/academy/app/assets/stylesheets/pages/students/_badge.scss */
+.student-badge .badge-middle {
+  width: 104px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #c30;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+/* line 22, /Users/jwang/academy/app/assets/stylesheets/pages/students/_badge.scss */
+.student-badge .badge-middle .second-letter {
+  font-weight: bold;
+}
+
+/* line 3, /Users/jwang/academy/app/assets/stylesheets/pages/students/_score-chart.scss */
+.student-graph {
+  margin-right: 75px;
+  position: relative;
+}
+/* line 7, /Users/jwang/academy/app/assets/stylesheets/pages/students/_score-chart.scss */
+.student-graph canvas {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: relative;
+}
+/* line 16, /Users/jwang/academy/app/assets/stylesheets/pages/students/_score-chart.scss */
+.student-graph .tooltip {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  position: absolute;
+  width: 100px;
+  padding: 10px;
+  background: rgba(30, 30, 30, 0.8);
+  color: #fff;
+}
+/* line 24, /Users/jwang/academy/app/assets/stylesheets/pages/students/_score-chart.scss */
+.student-graph .tooltip .close {
+  cursor: pointer;
+  color: #fff;
+  border-radius: 15px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  border: 2px solid #fff;
+  text-align: center;
+  top: -20px;
+  right: -20px;
+  background: rgba(52, 152, 219, 0.8);
+  line-height: 25px;
+}
+/* line 39, /Users/jwang/academy/app/assets/stylesheets/pages/students/_score-chart.scss */
+.student-graph .tooltip .section-image img {
+  border: 2px solid #aaa;
+  width: 96px;
+  height: 61px;
+}
+/* line 45, /Users/jwang/academy/app/assets/stylesheets/pages/students/_score-chart.scss */
+.student-graph .tooltip .sectionName {
+  font-size: 12px;
+  border-bottom: 1px dotted #aaa;
+  padding-bottom: 5px;
+}
+/* line 51, /Users/jwang/academy/app/assets/stylesheets/pages/students/_score-chart.scss */
+.student-graph .tooltip .score, .student-graph .tooltip .average {
+  text-align: right;
+  font-size: 16px;
+  padding: 5px 0;
+}
+/* line 57, /Users/jwang/academy/app/assets/stylesheets/pages/students/_score-chart.scss */
+.student-graph .tooltip .score {
+  border-bottom: 1px dotted #aaa;
+  color: #8fd100;
+}
+/* line 61, /Users/jwang/academy/app/assets/stylesheets/pages/students/_score-chart.scss */
+.student-graph .tooltip .average {
+  color: #3498db;
+}
